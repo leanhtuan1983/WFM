@@ -1,0 +1,60 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 40%;
+}    
+
+th{
+    text-align: left;
+    background-color: #212121;
+    color: #fff;
+    padding: 12px;
+}
+
+
+td{ padding: 12px }
+
+.pending{ background-color: #ecf542; color: #7444d4;}
+
+.in-process{ background-color: #00f5e0; color: #034efc; }
+
+.completed{ background-color: #48f542; color: #fc0303; }
+
+.cancel{ background-color: #6c7070; color: #fff; }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #034efc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #034efc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+caption {
+  color: white;
+  background-color: brown;
+  text-transform: uppercase;
+}
